@@ -1,0 +1,90 @@
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background: #0f172a; 
+    color: #f8fafc; 
+    padding: 25px; 
+    text-align: center; 
+}
+
+h2 { 
+    color: #38bdf8; 
+}
+
+    
+.hall-wrapper { 
+    display: inline-flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    background: #1e293b; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin: 20px auto; 
+}
+
+.row { 
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+}
+
+.row-title { 
+    width: 70px; 
+    font-weight: bold; 
+    color: #94a3b8; 
+    text-align: left; 
+    font-size: 14px; 
+}
+
+    
+.seat {
+  width: 44px; 
+  height: 44px; 
+  border-radius: 8px; 
+  display: flex;
+  
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;
+  
+  font-weight: bold; 
+  font-size: 14px; 
+  transition: 0.2s;
+}
+.seat.free { 
+    background: #22c55e; 
+    color: #052e16; 
+}
+
+.seat.free:hover { 
+    filter: brightness(1.2); 
+}
+
+.seat.booked { 
+    background: #ef4444; 
+    color: #450a0a; 
+}
+
+
+.stats { 
+    font-size: 16px; 
+    margin-top: 10px; 
+}
+
+.highlight { 
+    color: #facc15; 
+    font-weight: bold; 
+}
+
+.btn-reset { 
+    margin-top: 15px; 
+    background: #334155; 
+    color: #fff; 
+    padding: 8px 16px; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+}
+
+.btn-reset:hover { 
+    background: #475569; 
+}

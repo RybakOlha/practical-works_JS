@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>VIP Hall Booking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h2>🛋️ Бронювання диванів VIP-зони</h2>
+  <p style="color: #94a3b8; font-size: 14px;">Зелені — вільні, червоні — зайняті. Клікніть на місце для зміни статусу.</p>
+
+  <div class="hall-wrapper" id="hallMap"></div>
+
+  <div class="stats">
+    Зайнято місць: <span id="bookedSeats" class="highlight">0</span> | Вільних: <span id="freeSeats" class="highlight">0</span>
+  </div>
+  
+  <button class="btn-reset" onclick="resetAll()">Звільнити всі місця</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
